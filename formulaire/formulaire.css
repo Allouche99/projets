@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1 {
+    float: left;
+    padding: 20px 0;
+}
+
+nav {
+    float: right;
+    margin-top: 30px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.main {
+    padding: 20px 0;
+}
+
+.main form {
+    margin: 0 auto;
+    width: 50%;
+}
+
+form input,
+form textarea {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+}
+
+label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 1.2em;
+    color: #fff;
+    background: #27ae60;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+.input-control.error input {
+    border-color: #ff3860;
+}
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}

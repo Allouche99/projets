@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(127, 160, 189);
+}
+h1 {
+  font-style: italic;
+  font-size: 35px;
+}
+#groceriesInput {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: black;
+  color: aliceblue;
+  font-style: italic;
+  font-size: 20px;
+}
+.fa-solid:hover {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(40, 77, 189);
+}
+#allItems {
+  align-items: center;
+  justify-items: center;
+}
+.groceryItem {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(40, 77, 189);
+  font-size: 20px;
+  color: aliceblue;
+  font-style: italic;
+  width: 100px;
+  height: auto;
+}

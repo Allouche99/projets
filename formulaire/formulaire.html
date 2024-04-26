@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="formulaire.css" />
+    <title>Bouger ensemble</title>
+    <script defer src="Formulaire.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Bouger Ensemble</h1>
+        <nav>
+          <ul>
+            <!-- <li><a href="#">Accueil</a></li>
+            <li><a href="#">À propos</a></li>
+            <li><a href="#">Contact</a></li> -->
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="main">
+        <h2>S'inscrire</h2>
+        <form id="myForm">
+          <div class="input-control">
+            <label for="firstName">Prénom :</label>
+            <input type="text" id="firstName" name="firstName" />
+            <div class="error"></div>
+          </div>
+          <div class="input-control">
+            <label for="lastName">Nom :</label>
+            <input type="text" id="lastName" name="lastName" />
+            <div class="error"></div>
+          </div>
+          <div class="input-control">
+            <label for="phone">Téléphone :</label>
+            <input type="tel" id="phone" name="phone" />
+            <div class="error"></div>
+          </div>
+          <div class="input-control">
+            <label for="email">E-mail :</label>
+            <input type="text" id="email" name="email" />
+            <div class="error"></div>
+          </div>
+          <div class="input-control">
+            <label for="streetNumber">Numéro de rue :</label>
+            <input type="text" id="streetNumber" name="streetNumber" />
+            <div class="error"></div>
+          </div>
+          <div class="input-control">
+            <label for="streetLabel">Libellé de rue :</label>
+            <input type="text" id="streetLabel" name="streetLabel" />
+            <div class="error"></div>
+          </div>
+          <div class="input-control">
+            <label for="streetName">Nom de rue :</label>
+            <input type="text" id="streetName" name="streetName" />
+            <div class="error"></div>
+          </div>
+          <div class="input-control">
+            <label for="city">Ville :</label>
+            <input type="text" id="city" name="city" />
+            <div class="error"></div>
+          </div>
+          <div class="input-control">
+            <label for="postalCode">Code postal :</label>
+            <input type="text" id="postalCode" name="postalCode" />
+            <div class="error"></div>
+          </div>
+          <button type="button" id="submitBtn">S'inscrire</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
